@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Courier New', Courier, monospace
+}
+header {
+    background-color: brown;
+    font-size: 1em;
+    border: 5px solid salmon;
+    width: 50%;
+    
+}
+
+h1  {
+    width: 50%;
+}
+
+section {
+    padding: 1;
+    margin: 2px;
+}
+
+#projects_list {
+    background-color: rgb(249, 154, 154);
+    font-size: medium;
+    list-style: georgian;
+}
+
+ol{
+display: flex;
+flex-wrap: wrap;
+margin: 5px;
+justify-content: center;
+}
+
+li{
+    border: 1px solid red;
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+}
